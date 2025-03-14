@@ -22,6 +22,7 @@ const ProjectsCardBox:React.FC<ProjectBoxProps> = ({showGameDev}) => {
         }}
         className="grid
         grid-cols-1 w-[100vw]
+        sm:w-[640px]
         lg:grid-cols-2 lg:w-[1000px] px-8 gap-6 mt-4">
             {showGameDev ? frontProjectCards2 : gameProjectCards}
         </motion.div>
