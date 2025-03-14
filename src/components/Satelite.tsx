@@ -26,6 +26,7 @@ const Satelite = () => {
                 duration:60,
                 times:[0,0.25,0.5,0.75,1],
                 repeat:Infinity,
+                repeatDelay:10,
                 ease:"linear"
             }
         }}

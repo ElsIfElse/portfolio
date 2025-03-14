@@ -22,15 +22,15 @@ const usePrintGameDevProjects = () => {
         {
             name:"Pizza Fighter",
             image:"/pizzaFighter.png",
-            description:"Project Description",
-            stack:["React","Typescript","TailwindCSS"],
+            description:"Designed and developed an arcade-style survival shooter. Implemented wave-based enemy spawning with increasing difficulty. Created projectile and collision systems for engaging combat.",
+            stack:["Unity","Animator","Navmesh Agents"],
             link:"https://elseifelse.itch.io/pizza-fighter",
         },
         {
             name:"Escape The Room",
             image:"/saveTheSick.png",
-            description:"Project Description",
-            stack:["React","Typescript","TailwindCSS"],
+            description:"Designed and developed an escape the room style 3d fps puzzle game with interactive environment and ai generated story commentary.",
+            stack:["Unity","Pro Builder","C#"],
             link:"https://save-the-sick.vercel.app/",
         }
         

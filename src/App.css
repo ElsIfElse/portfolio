@@ -40,3 +40,6 @@ p{
 .view-switch-btn{
   @apply cursor-pointer py-1 rounded-sm border border-slate-700
 }
+.profile-link{
+  @apply text-xs cursor-pointer bg-slate-700 rounded-md py-1 mt-1 px-2 hover:opacity-90 transition-all duration-200
+}
