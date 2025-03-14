@@ -13,15 +13,6 @@ const TechImage:React.FC<TechImageProps> = ({imageAddress,techName}) => {
     const [isTapped,setIsTapped] = useState<boolean>(false)
     const [isHovered,setIsHovered] = useState<boolean>(false)
 
-
-    // useEffect(()=>{
-    //     if(isTapped){
-    //         imageRef.current!.style.scale = "1.2" 
-    //     }
-    //     else{
-    //         imageRef.current!.style.scale = "1" 
-    //     }
-    // },[isTapped])
     
     return ( 
         <motion.div 

@@ -17,28 +17,28 @@ const usePrintFrontDevProjects = () => {
     [
         {
             name:"Recipe App",
-            image:"/recipeApp.png",
+            image:`${import.meta.env.BASE_URL}recipeApp.png`,
             description:"Built a full-stack social media platform for cooking enthusiasts. Implemented user authentication and profile management. Created CRUD operations for recipe posting and interaction.Implemented live chat system with websockets.",
             stack:["React","Javascript","CSS","Vite","Typescript","Websockets"], 
             link:"https://recipe-app-nine-iota.vercel.app/",
         },
         {
             name:"Dine at Mine",
-            image:"/dineAtMine.png",
+            image:`${import.meta.env.BASE_URL}dineAtMine.png`,
             description:"Designed and implemented a responsive restaurant website. Created animated UI elements and interactive menu components",
             stack:["React","Typescript","TailwindCSS","Material UI"],
             link:"https://dineatmine.vercel.app/",
         },
         {
             name:"DnD Npc database",
-            image:"/dndSite.png",
+            image:`${import.meta.env.BASE_URL}dndSite.png`,
             description:"Developed a tool for Dungeon Masters to manage NPC characters. Implemented complete database functionality with filtering options.",
             stack:["React","Typescript","TailwindCSS","NextJs","Express","MongoDb"],
             link:"https://egylet.vercel.app/",
         },
         {
             name:"AI companionship",
-            image:"/aiCom.png",
+            image:`${import.meta.env.BASE_URL}aiCom.png`,
             description:"Created an AI chatbot with customizable personality settings. Implemented responsive conversation UI with message history ",
             stack:["React","Typescript","TailwindCSS","Huggingface","Express"],
             link:"https://next-ai-companionship.vercel.app/",

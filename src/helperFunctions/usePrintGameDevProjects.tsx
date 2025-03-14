@@ -14,21 +14,21 @@ const usePrintGameDevProjects = () => {
     [
         {
             name:"Save the Sick",
-            image:"/saveTheSick.png",
+            image:`${import.meta.env.BASE_URL}saveTheSick.png`,
             description:"Developed a complete resource management RTS game with dynamic AI behavior Implemented complex resource allocation and player progression systemsCreated custom UI for resource tracking and management",
             stack:["Unity","C#","CineMachine"], 
             link:"https://youtu.be/8Y-82tufejI",
         },
         {
             name:"Pizza Fighter",
-            image:"/pizzaFighter.png",
+            image:`${import.meta.env.BASE_URL}pizzaFighter.png`,
             description:"Designed and developed an arcade-style survival shooter. Implemented wave-based enemy spawning with increasing difficulty. Created projectile and collision systems for engaging combat.",
             stack:["Unity","Animator","Navmesh Agents"],
             link:"https://elseifelse.itch.io/pizza-fighter",
         },
         {
             name:"Escape The Room",
-            image:"/saveTheSick.png",
+            image:`${import.meta.env.BASE_URL}saveTheSick.png`,
             description:"Designed and developed an escape the room style 3d fps puzzle game with interactive environment and ai generated story commentary.",
             stack:["Unity","Pro Builder","C#"],
             link:"https://save-the-sick.vercel.app/",
