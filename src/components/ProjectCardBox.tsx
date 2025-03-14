@@ -1,5 +1,6 @@
 import usePrintFrontDevProjects from "../helperFunctions/usePrintFrontDevProjects";
 import usePrintGameDevProjects from "../helperFunctions/usePrintGameDevProjects";
+import {motion} from "framer-motion"
 
 interface ProjectBoxProps{
     showGameDev:boolean
@@ -11,9 +12,17 @@ const ProjectsCardBox:React.FC<ProjectBoxProps> = ({showGameDev}) => {
     const frontProjectCards2 = usePrintFrontDevProjects();
 
     return ( 
-        <div className="grid grid-cols-2 w-[1000px] px-8 gap-6 mt-4">
+        <motion.div 
+        key={showGameDev? "front" : "game"}
+        animate={{opacity:[0.5,0.8,1],filter:["blur(3px)","blur(0px)"]}}
+        transition={{
+            duration:0.2,
+            times:[0,0.8,1],
+            ease:"linear"
+        }}
+        className="grid grid-cols-2 w-[1000px] px-8 gap-6 mt-4">
             {showGameDev ? frontProjectCards2 : gameProjectCards}
-        </div>
+        </motion.div>
      );
 }
  
