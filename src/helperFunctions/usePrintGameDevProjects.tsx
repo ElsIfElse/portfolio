@@ -23,7 +23,7 @@ const usePrintGameDevProjects = () => {
             name:"Pizza Fighter",
             image:"./pizzaFighter.png",
             description:"Designed and developed an arcade-style survival shooter. Implemented wave-based enemy spawning with increasing difficulty. Created projectile and collision systems for engaging combat.",
-            stack:["Unity","Animator","Navmesh Agents"],
+            stack:["Unity","Animator","Navmesh"],
             link:"https://elseifelse.itch.io/pizza-fighter",
         },
         {

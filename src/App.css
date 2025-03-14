@@ -8,7 +8,10 @@
 }
 
 #root{
-  @apply w-full h-full m-0 p-6 flex flex-col items-center bg-[#0a0a0a] z-0 font-fira
+  @apply w-[100vw] h-full m-0 p-6 flex flex-col items-center bg-[#0a0a0a] z-0 font-fira justify-center
+}
+body{
+  @apply w-[100vw]
 }
 
 .background-tile{
@@ -17,10 +20,14 @@
   hover:bg-white  hover:cursor-default transition-all duration-200
 }
 h1{
-  @apply text-3xl font-bold
+  @apply 
+  text-xl
+  md:text-3xl font-bold
 }
 h2{
-  @apply text-2xl tracking-wide
+  @apply 
+  text-base
+  md:text-2xl tracking-wide
 }
 h3{
   @apply text-base font-bold tracking-wide 
@@ -29,10 +36,10 @@ p{
   @apply text-sm
 }
 .tech-list{
-  @apply bg-[rgba(13,84,45,1)] px-2 py-1 mr-1 rounded-md text-xs font-semibold tracking-tight
+  @apply bg-[rgba(13,84,45,1)] px-2 py-1 mr-1 rounded-md text-xs font-semibold tracking-tight w-full
 }
 .section{
-  @apply w-full flex flex-col items-center justify-center py-6 z-10
+  @apply w-[1000px] flex flex-col items-center justify-center py-6 z-10
 }
 .project-btn{
   @apply outline-none

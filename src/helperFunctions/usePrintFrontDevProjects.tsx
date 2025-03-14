@@ -19,14 +19,14 @@ const usePrintFrontDevProjects = () => {
             name:"Recipe App",
             image:"./recipeApp.png",
             description:"Built a full-stack social media platform for cooking enthusiasts. Implemented user authentication and profile management. Created CRUD operations for recipe posting and interaction.Implemented live chat system with websockets.",
-            stack:["React","Javascript","CSS","Vite","Typescript","Websockets"], 
+            stack:["React","CSS","Vite","Typescript","Websockets"], 
             link:"https://recipe-app-nine-iota.vercel.app/",
         },
         {
             name:"Dine at Mine",
             image:"./dineAtMine.png",
             description:"Designed and implemented a responsive restaurant website. Created animated UI elements and interactive menu components",
-            stack:["React","Typescript","TailwindCSS","Material UI"],
+            stack:["React","Typescript","TailwindCSS","Material-UI"],
             link:"https://dineatmine.vercel.app/",
         },
         {

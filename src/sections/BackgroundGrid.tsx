@@ -24,12 +24,11 @@ const BackgroundGrid = () => {
                     </div>
                 )) 
         )
-
     }
 
     return (
 
-        <div className="w-full h-full z-[-10] fixed flex flex-col items-center">
+        <div className="h-full z-[-10] fixed flex flex-col items-center">
 
             <motion.div 
             animate={{

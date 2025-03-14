@@ -33,10 +33,14 @@ const ProjectsSection = () => {
 
     return ( 
         <div className="section">
-            <div className="flex flex-row justify-start items-start w-[1000px] px-10 py-2">
+            <div className="flex flex-row justify-start items-start 
+            w-[100vw]
+            lg:w-[1000px] px-10 py-2">
                 <h2><span className="font-bold">{projectType}</span> projects</h2>
             </div>
-            <div className="grid grid-cols-2 w-[940px]">
+            <div className="grid grid-cols-2 
+            w-[80vw] gap-0
+            lg:w-[940px] lg:gap-0">
                 <motion.button 
                 whileHover={{backgroundColor: showGameProjects ? "rgba(28,45,50,0.0)" : "rgba(28,45,50,0.3)"}}
                 animate={{backgroundColor: showGameProjects ? "rgba(28,45,50,0.0)" : "rgba(28,45,50,0.7)"}}

@@ -3,7 +3,11 @@ import {motion} from "framer-motion"
 
 const ProfileCardSection = () => {
     return ( 
-        <div className=" w-[100%] p-6 flex flex-col bg-[rgba(10,10,10,0.6)] px-10 gap-3 z-30">
+        <div className=" 
+        w-[100vw]
+        md:w-[100%] 
+        
+        p-6 flex flex-col bg-[rgba(10,10,10,0.6)] px-10 gap-3 z-30 items-start">
 
             <div className="flex flex-row items-center justify-start gap-3">
                 <ProfileAvatar/>
