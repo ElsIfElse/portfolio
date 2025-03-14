@@ -22,7 +22,7 @@ const BackgroundGrid = () => {
                     <div key={index}>
                         {tile}
                     </div>
-                ))
+                )) 
         )
 
     }
