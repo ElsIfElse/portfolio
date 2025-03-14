@@ -40,15 +40,15 @@ const usePrintSkillImages = () => {
         },
         {
             name:"NodeJs",
-            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+            image:"https://icon.icepanel.io/Technology/svg/Node.js.svg"
         },
         {
             name:"ExpressJs",
-            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+            image:"https://icon.icepanel.io/Technology/png-shadow-512/Express.png"
         },
         {
             name:"MongoDB",
-            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"
+            image:"https://icon.icepanel.io/Technology/svg/MongoDB.svg"
         },
         {
             name:"Zustand",
@@ -68,11 +68,11 @@ const usePrintSkillImages = () => {
         },
         {
             name:"Github",
-            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+            image:"https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png"
         },
         {
             name:"Motion",
-            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"
+            image:"https://www.ejable.com/wp-content/uploads/2022/04/Framer-Motion-1200x1159.webp"
         },
         {
             name:"Unity",

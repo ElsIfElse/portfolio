@@ -1,5 +1,8 @@
 import ProjectCard from "../components/ProjectCard";
 
+
+
+
 const usePrintFrontDevProjects = () => {
 
     interface projectObject{
@@ -15,8 +18,8 @@ const usePrintFrontDevProjects = () => {
         {
             name:"Recipe App",
             image:"/recipeApp.png",
-            description:"Developed a complete resource management RTS game with dynamic AI behavior Implemented complex resource allocation and player progression systemsCreated custom UI for resource tracking and management",
-            stack:["React","Javascript","CSS","Vite","Typescript"], 
+            description:"Built a full-stack social media platform for cooking enthusiasts. Implemented user authentication and profile management. Created CRUD operations for recipe posting and interaction.Implemented live chat system with websockets.",
+            stack:["React","Javascript","CSS","Vite","Typescript","Websockets"], 
             link:"https://recipe-app-nine-iota.vercel.app/",
         },
         {
@@ -30,14 +33,14 @@ const usePrintFrontDevProjects = () => {
             name:"DnD Npc database",
             image:"/dndSite.png",
             description:"Developed a tool for Dungeon Masters to manage NPC characters. Implemented complete database functionality with filtering options.",
-            stack:["React","Typescript","TailwindCSS","NextJs"],
+            stack:["React","Typescript","TailwindCSS","NextJs","Express","MongoDb"],
             link:"https://egylet.vercel.app/",
         },
         {
             name:"AI companionship",
             image:"/aiCom.png",
             description:"Created an AI chatbot with customizable personality settings. Implemented responsive conversation UI with message history ",
-            stack:["React","Typescript","TailwindCSS","Huggingface"],
+            stack:["React","Typescript","TailwindCSS","Huggingface","Express"],
             link:"https://next-ai-companionship.vercel.app/",
         },
         
