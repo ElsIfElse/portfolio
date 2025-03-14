@@ -19,7 +19,7 @@ const ProfileCardSection = () => {
                                 times:[0,0.2,0.4,0.6,0.8,1]
                             }
                         }}
-                        className="text-4xl -translate-y-3">👋</motion.h2>
+                        className="ml-1 text-4xl -translate-y-2">👋</motion.h2>
                     </div>
                     <div className="flex flex-row items-center gap-2">
                         <div className="w-[7px] h-[7px] bg-green-500 rounded-full"></div>
