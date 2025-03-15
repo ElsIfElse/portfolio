@@ -19,11 +19,11 @@ const ProjectsSection = () => {
 
     const showGameProj = function(){
         setShowGameProjects(true)
-        setProjectType("Frontdev")
+        setProjectType("Web Development")
     }
     const showFrontendProj = function(){
         setShowGameProjects(false)
-        setProjectType("Gamedev")
+        setProjectType("Game Development")
     }
 
     useEffect(()=>{
@@ -51,7 +51,7 @@ const ProjectsSection = () => {
                 }}
                 className="view-switch-btn" onClick={()=>showGameProj()}>{showGameProjects ? <motion.div 
                 animate={dotAnimation}
-                className="w-[6px] blur-[1px] h-[6px] bg-green-600 rounded-full"></motion.div> : <div className="w-[6px] blur-[1px] h-[6px] bg-rgba(28,45,50,0) rounded-full"></div>}Webdev</motion.button>
+                className="w-[6px] blur-[1px] h-[6px] bg-green-600 rounded-full"></motion.div> : <div className="w-[6px] blur-[1px] h-[6px] bg-rgba(28,45,50,0) rounded-full"></div>}Web Development</motion.button>
 
                 <motion.button 
                 whileHover={{backgroundColor: showGameProjects ? "rgba(28,45,50,0.3)" : "rgba(28,45,50,0.0)"}}
@@ -61,7 +61,7 @@ const ProjectsSection = () => {
                 }}
                 className="view-switch-btn" onClick={()=>showFrontendProj()}>{showGameProjects ? <div className="w-[6px] blur-[1px] h-[6px] bg-rgba(28,45,50,0) rounded-full"></div> : <motion.div 
                 animate={dotAnimation}
-                className="w-[6px] blur-[1px] h-[6px] bg-green-600 rounded-full"></motion.div>}Gamedev</motion.button>
+                className="w-[6px] blur-[1px] h-[6px] bg-green-600 rounded-full"></motion.div>}Game Development</motion.button>
             </div>
             <ProjectsCardBox showGameDev={showGameProjects}/>
         </div>

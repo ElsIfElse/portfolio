@@ -31,11 +31,11 @@ const ProfileCardSection = () => {
                     </div>
                     <div className="flex flex-row gap-1 translate-y-1">
                         <a href="https://www.linkedin.com/in/szabolcs-s%C3%A1p-mizera-4670b7205/" className="profile-link flex flex-row justify-center items-center gap-1"><img className="w-[20px] h-[20px]" src="https://img.icons8.com/ios11/512/linkedin.png" alt="" /> LinkedIn</a>
-                        <a className="profile-link flex flex-row justify-center items-center gap-1" download={"/CV.docx"} href=""><img className="w-[20px] h-[20px]" src="https://www.iconpacks.net/icons/1/free-document-icon-901-thumb.png" alt="" /> CV</a>
+                        <a className="profile-link flex flex-row justify-center items-center gap-1" download={"/Szabolcs_Sapi-Mizera_CV.pdf"} href=""><img className="w-[20px] h-[20px]" src="https://www.iconpacks.net/icons/1/free-document-icon-901-thumb.png" alt="" /> CV</a>
                     </div>
                 </div> 
             </div>
-            <p>Focused on Frontend Development and game mechanics implementation. Looking for a Unity 
+            <p>Focused on <span className="font-bold text-[15px]">Game Mechanics Implementation</span> and <span className="font-bold text-[15px]">Frontend Development</span>. Looking for a Unity 
             Developer position to apply technical skills in a professional environment.</p>
         </div>
      );
