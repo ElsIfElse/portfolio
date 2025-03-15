@@ -36,7 +36,7 @@ p{
   @apply text-sm
 }
 .tech-list{
-  @apply bg-[rgba(13,84,45,1)] px-2 py-1 mr-1 rounded-md text-xs font-semibold tracking-tight w-full
+  @apply bg-[rgba(13,84,45,1)] px-2 py-1 mr-1 rounded-md text-xs font-semibold tracking-tight w-full flex flex-row justify-center
 }
 .section{
   @apply w-[1000px] flex flex-col items-center justify-center py-6 z-10
