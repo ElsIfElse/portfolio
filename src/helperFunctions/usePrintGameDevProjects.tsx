@@ -40,7 +40,6 @@ const usePrintGameDevProjects = () => {
             stack:["Unity","C#","State Machines","Animation Layers","Combat System","Upgrade System"],
             link:"https://www.youtube.com/watch?v=oJqpW-Ra8TM&ab_channel=Elysium",
         }
-        
     ] 
 
     return ( 
