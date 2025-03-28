@@ -25,7 +25,7 @@ const ProjectCard:React.FC<ProjectCardProps> = ({name,image,description,stack,li
                     <div className="
                     
                     grid grid-cols-3 gap-1
-                    md:flex md:flex-row md:gap-0">
+                     md:gap-1 md:grid md:grid-col-2">
                         {stack.map((item,index)=><p className="tech-list" key={index+item}>{item}</p>)}
                     </div>
                 </div>

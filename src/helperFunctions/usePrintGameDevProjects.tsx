@@ -32,6 +32,13 @@ const usePrintGameDevProjects = () => {
             description:"Designed and developed an escape the room style 3d fps puzzle game with interactive environment and AI generated story commentary.",
             stack:["Unity","C#","Pro Builder","Animator"],
             link:"https://elseifelse.itch.io/void-blocks",
+        },
+        {
+            name:"RPG Survival",
+            image:"./rpgImage.png",
+            description:"Currently working on an isometric view RPG quest driven game with classic RPG combat system and ability upgrades and shop design.",
+            stack:["Unity","C#","State Machines","Animation Layers","Combat System","Upgrade System"],
+            link:"https://www.youtube.com/watch?v=oJqpW-Ra8TM&ab_channel=Elysium",
         }
         
     ] 
@@ -40,7 +47,7 @@ const usePrintGameDevProjects = () => {
         <>
             {
                 gameDevProjectsObject.map((project)=>(
-                    <div key={project.name}>
+                    <div  key={project.name}>
                         <ProjectCard name={project.name} image={project.image} description={project.description} stack={project.stack} link={project.link}/>
                     </div>
                 ))
