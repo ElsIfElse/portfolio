@@ -6,12 +6,13 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 1);
   background-color: #242424;
-  overflow-x:hidden ;
+  overflow-x:hidden;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 body {

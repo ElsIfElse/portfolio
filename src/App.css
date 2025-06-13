@@ -8,10 +8,10 @@
 }
 
 #root{
-  @apply w-[100vw] h-full m-0 p-6 flex flex-col items-center bg-[#0a0a0a] z-0 font-fira justify-center
+  @apply w-[100vw] h-full m-0 p-6 flex flex-col items-center bg-[#0a0a0a] z-0 font-fira justify-center 
 }
 body{
-  @apply w-[100vw] overflow-x-hidden
+  @apply w-[100vw] overflow-x-hidden 
 }
 
 .background-tile{

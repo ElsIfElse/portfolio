@@ -1,25 +1,15 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Satelite from './components/Satelite'
-
-import BackgroundGrid from './sections/BackgroundGrid'
-import ProfileCardSection from './sections/ProfileCardSection'
-import ProjectsSection from './sections/ProjectsSection'
-import StarHolder from './sections/StarHolder'
-import TechSection from './sections/TechSection'
-
+import MainPage from './pages/MainPage'
+import ProjectPage from './pages/ProjectPage'
 
 function App() {  
 
   return (
-    <div className='flex flex-col items-center max-w-[600px]'>
-      <ProfileCardSection/>
-      <TechSection/>
-      <ProjectsSection/>
-      <BackgroundGrid/>
-      <StarHolder/>
-      <Satelite/>
-
-    </div>
+      <Routes>
+          <Route path="/portfolio/" element={<MainPage/>} />
+          <Route path="/portfolio/project/:id" element={<ProjectPage/>} />
+      </Routes>
   )
 }
 
