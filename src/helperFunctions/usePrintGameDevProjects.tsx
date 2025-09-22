@@ -60,6 +60,13 @@ const usePrintGameDevProjects = () => {
             stack:["Unity","C#","Behaviour Tree","Object Pooling","Cinemachine","Texture Rendering"],
             link:`project/06`,        
         },
+        {
+            name:"The Island",
+            image:"./islandGame.png",
+            description:"Game prototype built to showcase inventory system and enemy state machine behaviour. ",
+            stack:["Unity","C#","State Machine","Object Pooling","Cinemachine"],
+            link:`project/07`,        
+        },
     ] 
 
     return ( 

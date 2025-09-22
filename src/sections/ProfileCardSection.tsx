@@ -36,8 +36,8 @@ const ProfileCardSection = () => {
                     </div>
                 </div> 
             </div>
-            <p>Focused on <span className="font-bold text-[15px]">Game Mechanics Implementation</span> and <span className="font-bold text-[15px]">Frontend Development</span>. Looking for a Unity 
-            Developer position to apply technical skills in a professional environment.</p>
+            <p>Focused on <span className="font-bold text-[15px]">Game Mechanics Implementation</span> and <span className="font-bold text-[15px]">Frontend Development</span>. Looking for a <span className="font-bold text-[15px]"> Unity 
+            Developer </span> position to apply technical skills in a professional environment.</p>
         </div>
      );
 }
