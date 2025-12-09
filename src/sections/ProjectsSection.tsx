@@ -19,11 +19,11 @@ const ProjectsSection = () => {
 
     const showGameProj = function(){
         setShowGameProjects(true)
-        setProjectType("Web Development")
+        setProjectType("Game Development")
     }
     const showFrontendProj = function(){
         setShowGameProjects(false)
-        setProjectType("Game Development")
+        setProjectType("Web Development")
     }
 
     useEffect(()=>{
