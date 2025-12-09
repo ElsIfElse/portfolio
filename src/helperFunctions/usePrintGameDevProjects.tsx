@@ -80,6 +80,13 @@ const usePrintGameDevProjects = () => {
             description:"You get locked into a weird garden and being chased by a monster that is moving faster depending on your torch's light level. Get out of the garden before the monster catches you.",
             stack:["Unity","State Machine","Cinemachine","Timeline","Cutscenes","WFC"],
             link:`project/09`,        
+        },
+        {
+            name:"Castle of Doom",
+            image:"./castleOfDoom.png",
+            description:"Roguelite dungeon crawler game, heavily inspired by Ziggurat 2.",
+            stack:["Unity","Cinemachine","Timeline","Cutscenes","WFC"],
+            link:`project/10`,        
         }
     ] 
 

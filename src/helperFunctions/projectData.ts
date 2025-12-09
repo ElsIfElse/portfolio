@@ -128,7 +128,17 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"The first game where I created all the models in blender excusively for the project. The game has a tile based grid map and a simple ambiance audio system that triggers noises and sounds based on the player's movement between tiles. The project has a settings menu and cutscene transitions. Player can also craft simple recipe items to increase the chance of survival and to encourage exploration. The game is using a wave function collapse implementation to generate random maps and to distribute items and locations on the map.",
     },
     {
-        "id":10,
+        "id": 10,
+        "name":"Castle of Doom",
+        "image":"/castleOfDoom_02.png",
+        "videoLink":"Gj0psT87_d8",
+        "projectHighlightLink":"Gj0psT87_d8",
+        "projectDuration":"2 months",
+        "projectInformation":"All elements of the game but the prefabs and some animations were self made",
+        "projectHighlightDescription":"The game is heavily inspired by the game Ziggurat 2. The game uses wave function collapse to generate prebuilt room tiles. Implemented a standard roguelite skill point gaining system after clearing the level boss that can be spent in the menu for permanent upgrades. While gaining experience the player can choose from 3 upgrades that last until the end of the run. \n \nThe game has 5 unique common enemy types and 1 boss. The game has an implemented json based save system to track settings and skill point progression and distribution",
+    },
+    {
+        "id":11,
         "name":"Recipe App",
         "image":"../recipeApp.png",
         "videoLink":"none",
@@ -138,7 +148,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":11,
+        "id":12,
         "name":"Dine at Mine",
         "image":"../dineAtMine.png",
         "videoLink":"none",
@@ -147,7 +157,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
     },
     {
-        "id":12,
+        "id":13,
         "name":"DnD Npc database",
         "image":"../dndSite.png",
         "videoLink":"none",
@@ -157,7 +167,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":13,
+        "id":14,
         "name":"AI Companionship",
         "image":"../aiCom.png",
         "videoLink":"none",
