@@ -116,8 +116,6 @@ export const projectInfos:projectInfo[] =[
         "projectDuration":"2 weeks",
         "projectInformation":"All elements of the game but the prefabs and animations were self made",
         "projectHighlightDescription":"The first game where I implemented global game state and used sub game states to control the flow of the game. The game also has a functional global leaderboard. ",
-        // "projectHighlightImage_01":"../public/code_01.png",
-        // "projectHighlightImage_02":"../public/code_02.png"
     },
     {
         "id": 9,
@@ -128,8 +126,6 @@ export const projectInfos:projectInfo[] =[
         "projectDuration":"2 months",
         "projectInformation":"All elements of the game including the prefabs and animations were self made",
         "projectHighlightDescription":"The first game where I created all the models in blender excusively for the project. The game has a tile based grid map and a simple ambiance audio system that triggers noises and sounds based on the player's movement between tiles. The project has a settings menu and cutscene transitions. Player can also craft simple recipe items to increase the chance of survival and to encourage exploration. The game is using a wave function collapse implementation to generate random maps and to distribute items and locations on the map.",
-        // "projectHighlightImage_01":"../public/code_01.png",
-        // "projectHighlightImage_02":"../public/code_02.png"
     },
     {
         "id":10,
