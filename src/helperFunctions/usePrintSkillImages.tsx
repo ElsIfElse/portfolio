@@ -74,10 +74,7 @@ const usePrintSkillImages = () => {
             name:"Motion",
             image:"https://www.ejable.com/wp-content/uploads/2022/04/Framer-Motion-1200x1159.webp"
         },
-        {
-            name:"Unity",
-            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg"
-        }
+
     ]
         
     
