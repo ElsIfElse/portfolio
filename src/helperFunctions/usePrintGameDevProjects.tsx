@@ -12,24 +12,24 @@ const usePrintGameDevProjects = () => {
     const gameDevProjectsObject:projectObject[] =
     [
         {
-            name:"Save the Sick",
-            image:"./saveTheSick.png",
-            description:"Resource management RTS game with dynamic AI behavior. Reach the population goal and be aware of the sickness that is spreading around town. Hire doctors and make the right decisions.",
-            stack:["Unity","C#","CineMachine"], 
-            link:`project/00`,
+            name:"Castle of Doom",
+            image:"./castleOfDoom.png",
+            description:"Roguelite dungeon crawler game, heavily inspired by Ziggurat 2.",
+            stack:["Unity","Cinemachine","Timeline","Cutscenes","WFC"],
+            link:`project/00`,        
         },
         {
-            name:"Pizza Fighter",
-            image:"./pizzaFighter.png",
-            description:"Arcade-style survival shooter. Simple shooting mechanics and enemy wave spawning with increasing difficulty. ",
-            stack:["Unity","C#","Animator","Navmesh"],
+            name:"Feed the Light",
+            image:"./feedTheLight.png",
+            description:"You get locked into a weird garden and being chased by a monster that is moving faster depending on your torch's light level. Get out of the garden before the monster catches you.",
+            stack:["Unity","State Machine","Cinemachine","Timeline","Cutscenes","WFC"],
             link:`project/01`,        
         },
         {
-            name:"Void Blocks",
-            image:"./voidBlocks.png",
-            description:"Designed and developed an escape the room style 3d fps puzzle game with interactive environment and audio story commentary.",
-            stack:["Unity","C#","Pro Builder","Animator"],
+            name:"Don't Break the Glass",
+            image:"./dontBreakTheGlass_03.png",
+            description:"You are to deliver a piece of class to the customer that is waiting for you. Watch out for traffic and the careless locals. And most importantly, don't break the glass.",
+            stack:["Unity","C#","State Machine","Cinemachine","Animator"],
             link:`project/02`,        
         },
         {
@@ -68,26 +68,26 @@ const usePrintGameDevProjects = () => {
             link:`project/07`,        
         },
         {
-            name:"Don't Break the Glass",
-            image:"./dontBreakTheGlass_03.png",
-            description:"You are to deliver a piece of class to the customer that is waiting for you. Watch out for traffic and the careless locals. And most importantly, don't break the glass.",
-            stack:["Unity","C#","State Machine","Cinemachine","Animator"],
-            link:`project/08`,        
+            name:"Save the Sick",
+            image:"./saveTheSick.png",
+            description:"Resource management RTS game with dynamic AI behavior. Reach the population goal and be aware of the sickness that is spreading around town. Hire doctors and make the right decisions.",
+            stack:["Unity","C#","CineMachine"], 
+            link:`project/08`,
         },
         {
-            name:"Feed the Light",
-            image:"./feedTheLight.png",
-            description:"You get locked into a weird garden and being chased by a monster that is moving faster depending on your torch's light level. Get out of the garden before the monster catches you.",
-            stack:["Unity","State Machine","Cinemachine","Timeline","Cutscenes","WFC"],
+            name:"Pizza Fighter",
+            image:"./pizzaFighter.png",
+            description:"Arcade-style survival shooter. Simple shooting mechanics and enemy wave spawning with increasing difficulty. ",
+            stack:["Unity","C#","Animator","Navmesh"],
             link:`project/09`,        
         },
         {
-            name:"Castle of Doom",
-            image:"./castleOfDoom.png",
-            description:"Roguelite dungeon crawler game, heavily inspired by Ziggurat 2.",
-            stack:["Unity","Cinemachine","Timeline","Cutscenes","WFC"],
+            name:"Void Blocks",
+            image:"./voidBlocks.png",
+            description:"Designed and developed an escape the room style 3d fps puzzle game with interactive environment and audio story commentary.",
+            stack:["Unity","C#","Pro Builder","Animator"],
             link:`project/10`,        
-        }
+        },
     ] 
 
     return ( 

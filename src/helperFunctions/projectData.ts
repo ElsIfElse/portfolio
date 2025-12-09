@@ -17,37 +17,33 @@ export interface projectInfo{
 export const projectInfos:projectInfo[] =[
     {
         "id": 0,
-        "name":"Save The Sick",
-        "image":"/saveTheSick.png",
-        "videoLink":"8Y-82tufejI",
-        "projectHighlightLink":"8Y-82tufejI",
+        "name":"Castle of Doom",
+        "image":"/castleOfDoom_02.png",
+        "videoLink":"Gj0psT87_d8",
+        "projectHighlightLink":"Gj0psT87_d8",
         "projectDuration":"2 months",
-        "projectInformation":"All elements of the game but the prefabs and animations were self made",
-        "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management. The main goal of the project was to learn the FSM pattern and how to implement it to create simple AI behaviour patterns.",
-        // "projectHighlightImage_01":"../public/code_01.png",
-        // "projectHighlightImage_02":"../public/code_02.png"
-    },
-    {    
-        "id":1,
-        "name":"Pizza Fighter",
-        "image":"/pizzaFighter.png",
-        "projectHighlightLink":"zsu0N-3bDCw",
-        "videoLink":"zsu0N-3bDCw",
-        "projectDuration":"2 weeks",
-        "projectInformation":"All elements of the game but the prefabs and animations were self made"    ,
-        "projectHighlightDescription":"Pizza collecting mechanism that stacks the pizza bullets around the player and let's the player decide if they want to shoot it forward, backwards or do a spread shot that shoots all currently held pizzas. The game has a linear difficulty progression system that makes enemies faster and spawn more often. The game has a scoring system based on the amount of killed enemies and the time survived. Players can also collect money that represents score points. Main goal of the project was to create an arcade game that has a unique shooting mechanism."
-
+        "projectInformation":"All elements of the game but the prefabs and some animations were self made",
+        "projectHighlightDescription":"The game is heavily inspired by the game Ziggurat 2. The game uses wave function collapse to generate prebuilt room tiles. Implemented a standard roguelite skill point gaining system after clearing the level boss that can be spent in the menu for permanent upgrades. While gaining experience the player can choose from 3 upgrades that last until the end of the run. \n \nThe game has 5 unique common enemy types and 1 boss. The game has an implemented json based save system to track settings and skill point progression and distribution",
     },
     {
-        "id":2,
-        "name":"Void Blocks",
-        "image":"../voidBlocks.png",
-        "videoLink":"YYvFQPh_wHo?",
-        "projectHighlightLink":"YYvFQPh_wHo?",
+        "id": 1,
+        "name":"Feed the Light",
+        "image":"/feedTheLight.png",
+        "videoLink":"FLfXtzf_TXA",
+        "projectHighlightLink":"FLfXtzf_TXA",
         "projectDuration":"2 months",
-        "projectInformation":"All elements of the game were self made"    ,
-        "projectHighlightDescription":"The goal of the project was to create a 3D escape the room style game with interactive environment. The player can pick up objects portal style and throw them. Learned a lot about game desigh theory and simple animation creations as well as using the Pro Builder tool to create the environment."
-
+        "projectInformation":"All elements of the game including the prefabs and animations were self made",
+        "projectHighlightDescription":"The first game where I created all the models in blender excusively for the project. The game has a tile based grid map and a simple ambiance audio system that triggers noises and sounds based on the player's movement between tiles. The project has a settings menu and cutscene transitions. Player can also craft simple recipe items to increase the chance of survival and to encourage exploration. The game is using a wave function collapse implementation to generate random maps and to distribute items and locations on the map.",
+    },
+    {
+        "id": 2,
+        "name":"Don't Break the Glass",
+        "image":"/saveTheSick.png",
+        "videoLink":"8Y-82tufejI",
+        "projectHighlightLink":"X0ZnLfXp67s",
+        "projectDuration":"2 weeks",
+        "projectInformation":"All elements of the game but the prefabs and animations were self made",
+        "projectHighlightDescription":"The first game where I implemented global game state and used sub game states to control the flow of the game. The game also has a functional global leaderboard. ",
     },
     {
         "id":3,
@@ -109,33 +105,37 @@ export const projectInfos:projectInfo[] =[
     },
     {
         "id": 8,
-        "name":"Don't Break the Glass",
+        "name":"Save The Sick",
         "image":"/saveTheSick.png",
         "videoLink":"8Y-82tufejI",
-        "projectHighlightLink":"X0ZnLfXp67s",
-        "projectDuration":"2 weeks",
+        "projectHighlightLink":"8Y-82tufejI",
+        "projectDuration":"2 months",
         "projectInformation":"All elements of the game but the prefabs and animations were self made",
-        "projectHighlightDescription":"The first game where I implemented global game state and used sub game states to control the flow of the game. The game also has a functional global leaderboard. ",
+        "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management. The main goal of the project was to learn the FSM pattern and how to implement it to create simple AI behaviour patterns.",
+        // "projectHighlightImage_01":"../public/code_01.png",
+        // "projectHighlightImage_02":"../public/code_02.png"
+    },
+    {    
+        "id":9,
+        "name":"Pizza Fighter",
+        "image":"/pizzaFighter.png",
+        "projectHighlightLink":"zsu0N-3bDCw",
+        "videoLink":"zsu0N-3bDCw",
+        "projectDuration":"2 weeks",
+        "projectInformation":"All elements of the game but the prefabs and animations were self made"    ,
+        "projectHighlightDescription":"Pizza collecting mechanism that stacks the pizza bullets around the player and let's the player decide if they want to shoot it forward, backwards or do a spread shot that shoots all currently held pizzas. The game has a linear difficulty progression system that makes enemies faster and spawn more often. The game has a scoring system based on the amount of killed enemies and the time survived. Players can also collect money that represents score points. Main goal of the project was to create an arcade game that has a unique shooting mechanism."
+
     },
     {
-        "id": 9,
-        "name":"Feed the Light",
-        "image":"/feedTheLight.png",
-        "videoLink":"FLfXtzf_TXA",
-        "projectHighlightLink":"FLfXtzf_TXA",
+        "id":10,
+        "name":"Void Blocks",
+        "image":"../voidBlocks.png",
+        "videoLink":"YYvFQPh_wHo?",
+        "projectHighlightLink":"YYvFQPh_wHo?",
         "projectDuration":"2 months",
-        "projectInformation":"All elements of the game including the prefabs and animations were self made",
-        "projectHighlightDescription":"The first game where I created all the models in blender excusively for the project. The game has a tile based grid map and a simple ambiance audio system that triggers noises and sounds based on the player's movement between tiles. The project has a settings menu and cutscene transitions. Player can also craft simple recipe items to increase the chance of survival and to encourage exploration. The game is using a wave function collapse implementation to generate random maps and to distribute items and locations on the map.",
-    },
-    {
-        "id": 10,
-        "name":"Castle of Doom",
-        "image":"/castleOfDoom_02.png",
-        "videoLink":"Gj0psT87_d8",
-        "projectHighlightLink":"Gj0psT87_d8",
-        "projectDuration":"2 months",
-        "projectInformation":"All elements of the game but the prefabs and some animations were self made",
-        "projectHighlightDescription":"The game is heavily inspired by the game Ziggurat 2. The game uses wave function collapse to generate prebuilt room tiles. Implemented a standard roguelite skill point gaining system after clearing the level boss that can be spent in the menu for permanent upgrades. While gaining experience the player can choose from 3 upgrades that last until the end of the run. \n \nThe game has 5 unique common enemy types and 1 boss. The game has an implemented json based save system to track settings and skill point progression and distribution",
+        "projectInformation":"All elements of the game were self made"    ,
+        "projectHighlightDescription":"The goal of the project was to create a 3D escape the room style game with interactive environment. The player can pick up objects portal style and throw them. Learned a lot about game desigh theory and simple animation creations as well as using the Pro Builder tool to create the environment."
+
     },
     {
         "id":11,
@@ -145,7 +145,6 @@ export const projectInfos:projectInfo[] =[
         "projectDuration":"2 months",
         "projectInformation":"All elements of the game apart from the prefabs and animations were self made"    ,
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
-
     },
     {
         "id":12,
