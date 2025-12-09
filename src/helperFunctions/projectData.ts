@@ -108,7 +108,31 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":'The game prototype was created to plan and build a minecraft-like inventory system with all items being equippable. The enemies have a mix of state machine and behaviour tree ai behaviour. The prototype includes day and night cycle with an enemy wave trigger at night.'
     },
     {
-        "id":8,
+        "id": 8,
+        "name":"Don't Break the Glass",
+        "image":"/saveTheSick.png",
+        "videoLink":"8Y-82tufejI",
+        "projectHighlightLink":"X0ZnLfXp67s",
+        "projectDuration":"2 weeks",
+        "projectInformation":"All elements of the game but the prefabs and animations were self made",
+        "projectHighlightDescription":"The first game where I implemented global game state and used sub game states to control the flow of the game. The game also has a functional global leaderboard. ",
+        // "projectHighlightImage_01":"../public/code_01.png",
+        // "projectHighlightImage_02":"../public/code_02.png"
+    },
+    {
+        "id": 9,
+        "name":"Feed the Light",
+        "image":"/feedTheLight.png",
+        "videoLink":"FLfXtzf_TXA",
+        "projectHighlightLink":"FLfXtzf_TXA",
+        "projectDuration":"2 months",
+        "projectInformation":"All elements of the game including the prefabs and animations were self made",
+        "projectHighlightDescription":"The first game where I created all the models in blender excusively for the project. The game has a tile based grid map and a simple ambiance audio system that triggers noises and sounds based on the player's movement between tiles. The project has a settings menu and cutscene transitions. Player can also craft simple recipe items to increase the chance of survival and to encourage exploration. The game is using a wave function collapse implementation to generate random maps and to distribute items and locations on the map.",
+        // "projectHighlightImage_01":"../public/code_01.png",
+        // "projectHighlightImage_02":"../public/code_02.png"
+    },
+    {
+        "id":10,
         "name":"Recipe App",
         "image":"../recipeApp.png",
         "videoLink":"none",
@@ -118,7 +142,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":9,
+        "id":11,
         "name":"Dine at Mine",
         "image":"../dineAtMine.png",
         "videoLink":"none",
@@ -127,7 +151,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
     },
     {
-        "id":10,
+        "id":12,
         "name":"DnD Npc database",
         "image":"../dndSite.png",
         "videoLink":"none",
@@ -137,7 +161,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":11,
+        "id":13,
         "name":"AI Companionship",
         "image":"../aiCom.png",
         "videoLink":"none",
@@ -146,4 +170,5 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
 
     },
+
 ]
