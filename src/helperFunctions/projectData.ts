@@ -21,6 +21,8 @@ export const projectInfos:projectInfo[] =[
         "image":"/castleOfDoom_02.png",
         "videoLink":"Gj0psT87_d8",
         "projectHighlightLink":"Gj0psT87_d8",
+        "projectHighlightImage_01":"../castleOfDoom.png",
+        "projectHighlightImage_02":"../castleOfDoom_03.png",
         "projectDuration":"2 months",
         "projectInformation":"All elements of the game but the prefabs and some animations were self made",
         "projectHighlightDescription":"The game is heavily inspired by the game Ziggurat 2. The game uses wave function collapse to generate prebuilt room tiles. Implemented a standard roguelite skill point gaining system after clearing the level boss that can be spent in the menu for permanent upgrades. While gaining experience the player can choose from 3 upgrades that last until the end of the run. \n \nThe game has 5 unique common enemy types and 1 boss. The game has an implemented json based save system to track settings and skill point progression and distribution",
@@ -73,6 +75,19 @@ export const projectInfos:projectInfo[] =[
     },
     {
         "id":5,
+        "name":"Where is the Power?",
+        "image":"../whereIsThePower.png",
+        "projectHighlightLink":"LcjuwB-fyMk",
+        "projectHighlightImage_01":"../whereIsThePower.png",
+        // "projectHighlightImage_02":"../public/code_02.png",
+        "videoLink":"LcjuwB-fyMk",
+        "projectDuration":"3 days",
+        "projectInformation":"Game was created from Kenney assets. All other elements were self made."    ,
+        "projectHighlightDescription":"The project was made during the 2025 Kenney Game Jam. The jam's theme was POWER and the time limit was 3 days. The game is a first person view puzzle game with a linear storyline where your TV session is interrupted by a storm and a power outage. Fix the main switch and continue the couch potato life. \n\n During the game jam I had to learn and practice fast game design iteration and the quick and dirty way of implementing things and then cleaning it up afterwards."
+ 
+    },
+    {
+        "id":6,
         "name":"The Machine",
         "image":"../aiCom.png",
         "videoLink":"T71F95nRcYw",
@@ -83,7 +98,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":6,
+        "id":7,
         "name":"Forest Streamer",
         "image":"../forestStreamer.png",
         "videoLink":"I2owX8FaVsk", 
@@ -94,7 +109,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":7,
+        "id":8,
         "name":"The Island",
         "image":"../forestStreamer.png",
         "videoLink":"VF0MQ4QtKyI", 
@@ -104,7 +119,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":'The game prototype was created to plan and build a minecraft-like inventory system with all items being equippable. The enemies have a mix of state machine and behaviour tree ai behaviour. The prototype includes day and night cycle with an enemy wave trigger at night.'
     },
     {
-        "id": 8,
+        "id": 9,
         "name":"Save The Sick",
         "image":"/saveTheSick.png",
         "videoLink":"8Y-82tufejI",
@@ -116,7 +131,7 @@ export const projectInfos:projectInfo[] =[
         // "projectHighlightImage_02":"../public/code_02.png"
     },
     {    
-        "id":9,
+        "id":10,
         "name":"Pizza Fighter",
         "image":"/pizzaFighter.png",
         "projectHighlightLink":"zsu0N-3bDCw",
@@ -127,7 +142,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":10,
+        "id":11,
         "name":"Void Blocks",
         "image":"../voidBlocks.png",
         "videoLink":"YYvFQPh_wHo?",
@@ -138,7 +153,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":11,
+        "id":12,
         "name":"Recipe App",
         "image":"../recipeApp.png",
         "videoLink":"none",
@@ -147,7 +162,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
     },
     {
-        "id":12,
+        "id":13,
         "name":"Dine at Mine",
         "image":"../dineAtMine.png",
         "videoLink":"none",
@@ -156,7 +171,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
     },
     {
-        "id":13,
+        "id":14,
         "name":"DnD Npc database",
         "image":"../dndSite.png",
         "videoLink":"none",
@@ -166,7 +181,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":14,
+        "id":15,
         "name":"AI Companionship",
         "image":"../aiCom.png",
         "videoLink":"none",

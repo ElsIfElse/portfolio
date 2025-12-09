@@ -16,7 +16,7 @@ const usePrintSkillImagesGame = () => {
         },
         {
             name:"Feel",
-            image:"https://assetstorev1-prd-cdn.unity3d.com/key-image/173c8845-1063-44dc-aa55-65738aa93cce.jpg"
+            image:"./feel_01.png"
         },
         {
             name:"Purrnet",
@@ -24,7 +24,7 @@ const usePrintSkillImagesGame = () => {
         },
         {
             name:"Fishnet",
-            image:"https://assetstorev1-prd-cdn.unity3d.com/key-image/1f7d1578-9a1e-4664-b78c-7b1953e92b6e.jpg"
+            image:"https://europe1.discourse-cdn.com/unity/original/4X/2/a/b/2abc2f63879d43b0283c33881fcd2709a22584a0.png"
         },
         {
             name:"DOTween",
@@ -32,20 +32,20 @@ const usePrintSkillImagesGame = () => {
         },
         {
             name:"Pro Builder",
-            image:"https://pbs.twimg.com/media/DUfUIQ8V4AAn7EL.png"
+            image:"./proBuilder.png"
         },
         {
             name:"Blender",
             image:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/1251px-Blender_logo_no_text.svg.png"
         },
         {
-            name:"Ableton Live",
+            name:"Ableton",
             image:"https://i.redd.it/3ru0ufljlc021.png"
         },
-
-        
-
-        
+        {
+            name:"Pro Tools",
+            image:"./proTools_01.png"
+        },
     ]
         
     
