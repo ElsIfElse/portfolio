@@ -34,7 +34,7 @@ const ProfileCardSection = () => {
                         <a href="https://www.youtube.com/@elysium2314" className="profile-link flex flex-row justify-center items-center gap-1"><img className="w-[20px] h-[20px]" src="./youtubeLogo.svg" alt="" /> YouTube</a>
                         <a href="https://soundcloud.com/elysium-695592163" className="profile-link flex flex-row justify-center items-center gap-1"><img className="w-[20px] h-[20px]" src="./soundCloudLogo_02.svg" alt="" /> SoundCloud</a>
                         <a className="profile-link flex flex-row justify-center items-center gap-1" media="application/pdf" type="application/pdf" download={"szabolcs_sapi-mizera_cv.pdf"} href="./szabolcs_sapi-mizera_cv.pdf"><img className="w-[20px] h-[20px]" src="https://www.iconpacks.net/icons/1/free-document-icon-901-thumb.png" alt="" /> CV</a>
-                        <a href="https://www.linkedin.com/in/szabolcs-s%C3%A1p-mizera-4670b7205/" className="profile-link flex flex-row justify-center items-center gap-1"><img className="w-[20px] h-[20px]" src="https://img.icons8.com/ios11/512/linkedin.png" alt="" /> LinkedIn</a>
+                        {/* <a href="https://www.linkedin.com/in/szabolcs-s%C3%A1p-mizera-4670b7205/" className="profile-link flex flex-row justify-center items-center gap-1"><img className="w-[20px] h-[20px]" src="https://img.icons8.com/ios11/512/linkedin.png" alt="" /> LinkedIn</a> */}
                     </div>
                 </div> 
             </div>

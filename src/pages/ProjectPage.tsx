@@ -30,11 +30,12 @@ const ProjectPage = () => {
         ' >
             <ProjectPageHeader headerText={projData.name} />
             <ProjectPageProjectHighlight highlightLink={projData.projectHighlightLink} highlightImage_01={projData.projectHighlightImage_01} highlightImage_02={projData.projectHighlightImage_02} highlightDescription={projData.projectHighlightDescription}/>
-            <ProjectPageProjectInfo productionTime={projData.projectDuration} projectInfo={projData.projectInformation}/>
+            <ProjectPageProjectInfo productionTime={projData.projectDuration} projectInfo={projData.projectInformation} projectLink={projData.itchLink}/>
 
             <BackgroundGrid/>
             <StarHolder/>
             <Satelite/>
+            
             <button onClick={clickHandle} className="w-[200px] h-[50px] bg-[#000000] text-[#ffffff] rounded-lg hover:scale-105 transition-all duration-300 z-20 hover:cursor-pointer">Back Home</button>
         </div>  
 

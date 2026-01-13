@@ -12,6 +12,7 @@ export interface projectInfo{
 
     projectDuration:string
     projectInformation:string
+    itchLink?:string
 }
 
 export const projectInfos:projectInfo[] =[
@@ -26,6 +27,7 @@ export const projectInfos:projectInfo[] =[
         "projectDuration":"2 months",
         "projectInformation":"All elements of the game but the prefabs and some animations were self made",
         "projectHighlightDescription":"The game is heavily inspired by the game Ziggurat 2. The game uses wave function collapse to generate prebuilt room tiles. Implemented a standard roguelite skill point gaining system after clearing the level boss that can be spent in the menu for permanent upgrades. While gaining experience the player can choose from 3 upgrades that last until the end of the run. \n \nThe game has 5 unique common enemy types and 1 boss. The game has an implemented json based save system to track settings and skill point progression and distribution",
+        "itchLink":"https://elseifelse.itch.io/castle-of-doom"
     },
     {
         "id": 1,
@@ -36,6 +38,7 @@ export const projectInfos:projectInfo[] =[
         "projectDuration":"2 months",
         "projectInformation":"All elements of the game including the prefabs and animations were self made",
         "projectHighlightDescription":"The first game where I created all the models in blender excusively for the project. The game has a tile based grid map and a simple ambiance audio system that triggers noises and sounds based on the player's movement between tiles. The project has a settings menu and cutscene transitions. Player can also craft simple recipe items to increase the chance of survival and to encourage exploration. The game is using a wave function collapse implementation to generate random maps and to distribute items and locations on the map.",
+        "itchLink":"https://elseifelse.itch.io/feed-the-light"
     },
     {
         "id": 2,
@@ -46,6 +49,7 @@ export const projectInfos:projectInfo[] =[
         "projectDuration":"2 weeks",
         "projectInformation":"All elements of the game but the prefabs and animations were self made",
         "projectHighlightDescription":"The first game where I implemented global game state and used sub game states to control the flow of the game. The game also has a functional global leaderboard. ",
+        "itchLink":"https://elseifelse.itch.io/dont-break-the-glass"
     },
     {
         "id":3,
@@ -83,7 +87,8 @@ export const projectInfos:projectInfo[] =[
         "videoLink":"LcjuwB-fyMk",
         "projectDuration":"3 days",
         "projectInformation":"Game was created from Kenney assets. All other elements were self made."    ,
-        "projectHighlightDescription":"The project was made during the 2025 Kenney Game Jam. The jam's theme was POWER and the time limit was 3 days. The game is a first person view puzzle game with a linear storyline where your TV session is interrupted by a storm and a power outage. Fix the main switch and continue the couch potato life. \n\n During the game jam I had to learn and practice fast game design iteration and the quick and dirty way of implementing things and then cleaning it up afterwards."
+        "projectHighlightDescription":"The project was made during the 2025 Kenney Game Jam. The jam's theme was POWER and the time limit was 3 days. The game is a first person view puzzle game with a linear storyline where your TV session is interrupted by a storm and a power outage. Fix the main switch and continue the couch potato life. \n\n During the game jam I had to learn and practice fast game design iteration and the quick and dirty way of implementing things and then cleaning it up afterwards.",
+        "itchLink":"https://elseifelse.itch.io/where-is-the-power"
  
     },
     {
@@ -138,7 +143,8 @@ export const projectInfos:projectInfo[] =[
         "videoLink":"zsu0N-3bDCw",
         "projectDuration":"2 weeks",
         "projectInformation":"All elements of the game but the prefabs and animations were self made"    ,
-        "projectHighlightDescription":"Pizza collecting mechanism that stacks the pizza bullets around the player and let's the player decide if they want to shoot it forward, backwards or do a spread shot that shoots all currently held pizzas. The game has a linear difficulty progression system that makes enemies faster and spawn more often. The game has a scoring system based on the amount of killed enemies and the time survived. Players can also collect money that represents score points. Main goal of the project was to create an arcade game that has a unique shooting mechanism."
+        "projectHighlightDescription":"Pizza collecting mechanism that stacks the pizza bullets around the player and let's the player decide if they want to shoot it forward, backwards or do a spread shot that shoots all currently held pizzas. The game has a linear difficulty progression system that makes enemies faster and spawn more often. The game has a scoring system based on the amount of killed enemies and the time survived. Players can also collect money that represents score points. Main goal of the project was to create an arcade game that has a unique shooting mechanism.",
+        "itchLink":"https://elseifelse.itch.io/pizza-fighter"
 
     },
     {
@@ -149,7 +155,8 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightLink":"YYvFQPh_wHo?",
         "projectDuration":"2 months",
         "projectInformation":"All elements of the game were self made"    ,
-        "projectHighlightDescription":"The goal of the project was to create a 3D escape the room style game with interactive environment. The player can pick up objects portal style and throw them. Learned a lot about game desigh theory and simple animation creations as well as using the Pro Builder tool to create the environment."
+        "projectHighlightDescription":"The goal of the project was to create a 3D escape the room style game with interactive environment. The player can pick up objects portal style and throw them. Learned a lot about game desigh theory and simple animation creations as well as using the Pro Builder tool to create the environment.",
+        "itchLink":"https://elseifelse.itch.io/void-blocks"
 
     },
     {
