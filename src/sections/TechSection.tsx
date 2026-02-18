@@ -1,4 +1,4 @@
-import usePrintSkillImages from "../helperFunctions/usePrintSkillImages";
+// import usePrintSkillImages from "../helperFunctions/usePrintSkillImages";
 import usePrintSkillImagesGame from "../helperFunctions/usePrintSkillImagesGame";
 
 
@@ -6,7 +6,7 @@ import usePrintSkillImagesGame from "../helperFunctions/usePrintSkillImagesGame"
 
 const TechSection = () => {
 
-    const techCards = usePrintSkillImages();
+    // const techCards = usePrintSkillImages();
     const techCardsGame = usePrintSkillImagesGame();
 
     return ( 
@@ -16,7 +16,7 @@ const TechSection = () => {
             sm:w-[640px]
             lg:w-[1000px] md:ml-0
             ">
-                <h2>Most commonly used <span className="font-bold italic">web development</span> technologies</h2>
+                {/* <h2>Most commonly used <span className="font-bold italic">web development</span> technologies</h2>
             </div>
             <div className="grid place-items-center px-5
             grid-cols-4 gap-2
@@ -32,8 +32,8 @@ const TechSection = () => {
             w-[100vw]
             sm:w-[640px]
             lg:w-[1000px] md:ml-0
-            ">
-                <h2>Most commonly used <span className="font-bold italic">game development</span> technologies</h2>
+            "> */}
+                <h2>Most commonly used <span className="font-bold italic"></span> technologies</h2>
             </div>
 
             <div className="grid place-items-center px-5

@@ -46,6 +46,34 @@ const usePrintSkillImagesGame = () => {
             name:"Pro Tools",
             image:"./proTools_01.png"
         },
+        {
+            name:"Github",
+            image:"https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png"
+        },
+        {
+            name:"HTML",
+            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+        },
+        {
+            name:"CSS",
+            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+        },
+        {
+            name:"C#",
+            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+        },
+        {
+            name:"C++",
+            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+        },
+        {
+            name:"Javascript",
+            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+        },
+        {
+            name:"Typescript",
+            image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+        },
     ]
         
     

@@ -66,6 +66,20 @@ export const projectInfos:projectInfo[] =[
     },
     {
         "id":4,
+        "name":"Kingdom Manager",
+        "image":"../kingdomManager.png",
+        "projectHighlightLink":"oGm3-7TTxJ8",
+        // "projectHighlightImage_01":"../public/kingdomManager_03.png",
+        "projectHighlightImage_02":"../public/kingdomManager_04.png",
+        "videoLink":"oGm3-7TTxJ8",
+        "projectDuration":"1 week",
+        "projectInformation":"The score was self composed. SFX is from Zapsplat.com. UI elements are from the asset store and rawpixel.",
+        "projectHighlightDescription":"The project was created to start implementing and using the game design principles I learned along the way. I tried focusing on small scope project that had clearly stated constraints. The project is purely UI and has as few as 3 input methods. Attempted to create a deck based resource management game where most of the development time is spent on balancing the deck in terms of event types and occurrences of these different levels of events. ",
+        "itchLink":"https://elseifelse.itch.io/kingdom-manager"
+ 
+    },
+    {
+        "id":5,
         "name":"FPS shooter",
         "image":"../fpsShooter.png",
         "projectHighlightLink":"Ylb4w7QQPrQ",
@@ -78,7 +92,7 @@ export const projectInfos:projectInfo[] =[
  
     },
     {
-        "id":5,
+        "id":6,
         "name":"Where is the Power?",
         "image":"../whereIsThePower.png",
         "projectHighlightLink":"LcjuwB-fyMk",
@@ -92,7 +106,7 @@ export const projectInfos:projectInfo[] =[
  
     },
     {
-        "id":6,
+        "id":7,
         "name":"The Machine",
         "image":"../aiCom.png",
         "videoLink":"T71F95nRcYw",
@@ -103,7 +117,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":7,
+        "id":8,
         "name":"Forest Streamer",
         "image":"../forestStreamer.png",
         "videoLink":"I2owX8FaVsk", 
@@ -114,7 +128,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":8,
+        "id":9,
         "name":"The Island",
         "image":"../forestStreamer.png",
         "videoLink":"VF0MQ4QtKyI", 
@@ -124,7 +138,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":'The game prototype was created to plan and build a minecraft-like inventory system with all items being equippable. The enemies have a mix of state machine and behaviour tree ai behaviour. The prototype includes day and night cycle with an enemy wave trigger at night.'
     },
     {
-        "id": 9,
+        "id": 10,
         "name":"Save The Sick",
         "image":"/saveTheSick.png",
         "videoLink":"8Y-82tufejI",
@@ -136,7 +150,7 @@ export const projectInfos:projectInfo[] =[
         // "projectHighlightImage_02":"../public/code_02.png"
     },
     {    
-        "id":10,
+        "id":11,
         "name":"Pizza Fighter",
         "image":"/pizzaFighter.png",
         "projectHighlightLink":"zsu0N-3bDCw",
@@ -148,7 +162,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":11,
+        "id":12,
         "name":"Void Blocks",
         "image":"../voidBlocks.png",
         "videoLink":"YYvFQPh_wHo?",
@@ -160,7 +174,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":12,
+        "id":13,
         "name":"Recipe App",
         "image":"../recipeApp.png",
         "videoLink":"none",
@@ -169,7 +183,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
     },
     {
-        "id":13,
+        "id":14,
         "name":"Dine at Mine",
         "image":"../dineAtMine.png",
         "videoLink":"none",
@@ -178,7 +192,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
     },
     {
-        "id":14,
+        "id":15,
         "name":"DnD Npc database",
         "image":"../dndSite.png",
         "videoLink":"none",
@@ -188,7 +202,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":15,
+        "id":16,
         "name":"AI Companionship",
         "image":"../aiCom.png",
         "videoLink":"none",

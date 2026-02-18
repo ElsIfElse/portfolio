@@ -38,7 +38,12 @@ const ProfileCardSection = () => {
                     </div>
                 </div> 
             </div>
-            <p>Focused on <span className="font-bold text-[15px]">Game Mechanics Implementation</span> and <span className="font-bold text-[15px]">Frontend Development</span>. 10+ years experience in the music industry as <span className="font-bold text-[15px]">composer</span> and <span className="font-bold text-[15px]">sound engineer</span>. Looking for a <span className="font-bold text-[15px]"> Unity 
+            <p>Focused on <span className="font-bold text-[15px]">Game Mechanics Implementation</span> and <span className="font-bold text-[15px]">Score Composition</span>. 
+            <br></br>
+            10+ years experience in the music industry as <span className="font-bold text-[15px]">composer</span> and <span className="font-bold text-[15px]">sound engineer.
+            <br></br>    
+            </span> 3+ years experience as <span className="font-bold text-[15px]">Game Developer</span>. 
+            Looking for a <span className="font-bold text-[15px]"> Game 
             Developer </span> position to apply technical skills in a professional environment.</p>
         </div>
      );

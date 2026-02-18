@@ -1,30 +1,30 @@
 import { useEffect, useState } from "react";
 import ProjectsCardBox from "../components/ProjectCardBox";
-import {motion} from "framer-motion"
+// import {motion} from "framer-motion"
 
 const ProjectsSection = () => {
 
     const [showGameProjects,setShowGameProjects] = useState<boolean>(true)
     const [projectType,setProjectType] = useState<string>("Webdev")
 
-    const dotAnimation = {
-        opacity:[0.8,1,0.8],
-        transition:{
-            duration:5,
-            times:[0,0.5,1],
-            repeat:Infinity,
-            ease:"linear"
-        }
-    }
+    // const dotAnimation = {
+    //     opacity:[0.8,1,0.8],
+    //     transition:{
+    //         duration:5,
+    //         times:[0,0.5,1],
+    //         repeat:Infinity,
+    //         ease:"linear"
+    //     }
+    // }
 
     const showGameProj = function(){
         setShowGameProjects(true)
         setProjectType("Game Development")
     }
-    const showFrontendProj = function(){
-        setShowGameProjects(false)
-        setProjectType("Web Development")
-    }
+    // const showFrontendProj = function(){
+    //     setShowGameProjects(false)
+    //     setProjectType("Web Development")
+    // }
 
     useEffect(()=>{
         showGameProj()
@@ -39,7 +39,7 @@ const ProjectsSection = () => {
             lg:w-[1000px] px-10 py-2">
                 <h2><span className="font-bold">{projectType}</span> projects</h2>
             </div>
-            <div className="grid grid-cols-2 
+            {/* <div className="grid grid-cols-2 
             w-[80vw] gap-0
             sm:w-[570px]
             lg:w-[940px] lg:gap-0">
@@ -62,7 +62,7 @@ const ProjectsSection = () => {
                 className="view-switch-btn" onClick={()=>showFrontendProj()}>{showGameProjects ? <div className="w-[6px] blur-[1px] h-[6px] bg-rgba(28,45,50,0) rounded-full"></div> : <motion.div 
                 animate={dotAnimation}
                 className="w-[6px] blur-[1px] h-[6px] bg-green-600 rounded-full"></motion.div>}Web Development</motion.button>
-            </div>
+            </div> */}
             <ProjectsCardBox showGameDev={showGameProjects}/> 
         </div>
      );
