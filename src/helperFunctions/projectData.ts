@@ -18,6 +18,19 @@ export interface projectInfo{
 export const projectInfos:projectInfo[] =[
     {
         "id": 0,
+        "name":"Space Deck",
+        "image":"/spaceDeckThumbnail.png",
+        "videoLink":"lYPMXEY9Dao",
+        "projectHighlightLink":"lYPMXEY9Dao",
+        "projectHighlightImage_01":"../spaceDeck_01.png",
+        "projectHighlightImage_02":"../spaceDeck_02.png",
+        "projectDuration":"3 weeks",
+        "projectInformation":"All elements of the game but the card visuals and the background images were self made",
+        "projectHighlightDescription":"Space Deck is an incremental roguelite like deck builder game prototype where, in between runs based on your previus progress You earn primary currency that can be spent to upgrade your deck. Secondary currency is earned based on the amount of primary upgrades purchased and can be used to unlock new cards and new secondary effects on cards.\n\nThe game includes a basic tutorial when the player first opens the game. Data is saved in local storage and loaded so progress is not lost.\n\nThe game states are handled by a very simple state machine. The project is handled by 2 main managers for the menu and gameplay state where they create the subhander UI and model objects and then initialize them to make sure they are all ready to be passed as dependencies for the other subhandlers.\n\nI attempted to use as little as possible Singleton Managers. Found it to be comfortable to only have the main state handler, the audiomanager and the main UI manager to be singletons classes that are handled by the game manager.",
+        "itchLink":"https://elseifelse.itch.io/space-deck"
+    },
+    {
+        "id": 1,
         "name":"Castle of Doom",
         "image":"/castleOfDoom_02.png",
         "videoLink":"Gj0psT87_d8",
@@ -30,7 +43,7 @@ export const projectInfos:projectInfo[] =[
         "itchLink":"https://elseifelse.itch.io/castle-of-doom"
     },
     {
-        "id": 1,
+        "id": 2,
         "name":"Feed the Light",
         "image":"/feedTheLight.png",
         "videoLink":"FLfXtzf_TXA",
@@ -41,7 +54,20 @@ export const projectInfos:projectInfo[] =[
         "itchLink":"https://elseifelse.itch.io/feed-the-light"
     },
     {
-        "id": 2,
+        "id": 3,
+        "name":"Night Shift",
+        "image":"/nightShiftThumbnail.png",
+        "videoLink":"IV6KSMS1AIY",
+        "projectHighlightLink":"IV6KSMS1AIY",
+        "projectDuration":"6 weeks",
+        "projectInformation":"All elements of the game but the prefabs were self made",
+        "projectHighlightDescription":"The project was heavily inspired by games like Frewatch, Gone home and Stanley's Parable. I wanted to implement a system where You can interact with almost all objects You see in the game in a unique way.\n\n The game contains different types of interaction classes. [Simple Interactions] where You can pick/inspect-rotate/throw objects. [Task Object Interactions] which changes behaviour based on the task progression. [Note Interactions] where the player can read/stash notes to observe later. [Unique Item Interactions] such as the vending machine, computers where You can read people's emails and get an environmental storytellying narrative from it.\n\nA node based conversation system was implemented to handle incoming phone calls and possible answers to questions form the caller. Answers have consequences on your work life balance meter and to future conversation options.\n\nThe base gameloop contains the player coming to work, picking up tasks, finishing them and making decisions based on what they interacted with or found.\n\nImplemented a global lock system to add reasons to locked mechanics and to remove those reasons. A mechanic is only enabled when the lock reason list is empty. This way the source of truth for the mechanic state is managed in one place. ",
+        "projectHighlightImage_02":"../nightShift_04.PNG",
+        "projectHighlightImage_01":"../nightShift_02.PNG",
+        "itchLink":""
+    },
+    {
+        "id": 4,
         "name":"Don't Break the Glass",
         "image":"/saveTheSick.png",
         "videoLink":"8Y-82tufejI",
@@ -52,7 +78,7 @@ export const projectInfos:projectInfo[] =[
         "itchLink":"https://elseifelse.itch.io/dont-break-the-glass"
     },
     {
-        "id":3,
+        "id":5,
         "name":"RPG Survival",
         "image":"../rpgImage.png",
         "projectHighlightLink":"oJqpW-Ra8TM",
@@ -65,7 +91,7 @@ export const projectInfos:projectInfo[] =[
  
     },
     {
-        "id":4,
+        "id":6,
         "name":"Kingdom Manager",
         "image":"../kingdomManager.png",
         "projectHighlightLink":"oGm3-7TTxJ8",
@@ -79,7 +105,7 @@ export const projectInfos:projectInfo[] =[
  
     },
     {
-        "id":5,
+        "id":7,
         "name":"FPS shooter",
         "image":"../fpsShooter.png",
         "projectHighlightLink":"Ylb4w7QQPrQ",
@@ -92,7 +118,7 @@ export const projectInfos:projectInfo[] =[
  
     },
     {
-        "id":6,
+        "id":8,
         "name":"Where is the Power?",
         "image":"../whereIsThePower.png",
         "projectHighlightLink":"LcjuwB-fyMk",
@@ -106,7 +132,7 @@ export const projectInfos:projectInfo[] =[
  
     },
     {
-        "id":7,
+        "id":9,
         "name":"The Machine",
         "image":"../aiCom.png",
         "videoLink":"T71F95nRcYw",
@@ -117,7 +143,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":8,
+        "id":10,
         "name":"Forest Streamer",
         "image":"../forestStreamer.png",
         "videoLink":"I2owX8FaVsk", 
@@ -128,7 +154,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":9,
+        "id":11,
         "name":"The Island",
         "image":"../forestStreamer.png",
         "videoLink":"VF0MQ4QtKyI", 
@@ -138,7 +164,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":'The game prototype was created to plan and build a minecraft-like inventory system with all items being equippable. The enemies have a mix of state machine and behaviour tree ai behaviour. The prototype includes day and night cycle with an enemy wave trigger at night.'
     },
     {
-        "id": 10,
+        "id": 12,
         "name":"Save The Sick",
         "image":"/saveTheSick.png",
         "videoLink":"8Y-82tufejI",
@@ -150,7 +176,7 @@ export const projectInfos:projectInfo[] =[
         // "projectHighlightImage_02":"../public/code_02.png"
     },
     {    
-        "id":11,
+        "id":13,
         "name":"Pizza Fighter",
         "image":"/pizzaFighter.png",
         "projectHighlightLink":"zsu0N-3bDCw",
@@ -162,7 +188,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":12,
+        "id":14,
         "name":"Void Blocks",
         "image":"../voidBlocks.png",
         "videoLink":"YYvFQPh_wHo?",
@@ -174,7 +200,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":13,
+        "id":15,
         "name":"Recipe App",
         "image":"../recipeApp.png",
         "videoLink":"none",
@@ -183,7 +209,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
     },
     {
-        "id":14,
+        "id":16,
         "name":"Dine at Mine",
         "image":"../dineAtMine.png",
         "videoLink":"none",
@@ -192,7 +218,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
     },
     {
-        "id":15,
+        "id":17,
         "name":"DnD Npc database",
         "image":"../dndSite.png",
         "videoLink":"none",
@@ -202,14 +228,13 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":16,
+        "id":18,
         "name":"AI Companionship",
         "image":"../aiCom.png",
         "videoLink":"none",
         "projectDuration":"2 months",
         "projectInformation":"All elements of the game apart from the prefabs and animations were self made"    ,
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
-
     },
 
 ]
