@@ -36,7 +36,7 @@ const usePrintSkillImagesGame = () => {
         },
         {
             name:"Blender",
-            image:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/1251px-Blender_logo_no_text.svg.png"
+            image:"./blender.png"
         },
         {
             name:"Ableton",
