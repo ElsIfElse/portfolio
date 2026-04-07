@@ -30,7 +30,7 @@ const ProjectPage = () => {
         ' >
             <ProjectPageHeader headerText={projData.name} />
             <ProjectPageProjectHighlight highlightLink={projData.projectHighlightLink} highlightImage_01={projData.projectHighlightImage_01} highlightImage_02={projData.projectHighlightImage_02} highlightDescription={projData.projectHighlightDescription}/>
-            <ProjectPageProjectInfo productionTime={projData.projectDuration} projectInfo={projData.projectInformation} projectLink={projData.itchLink}/>
+            <ProjectPageProjectInfo productionTime={projData.projectDuration} projectInfo={projData.projectInformation} projectLink={projData.itchLink} githubRepo={projData.githubRepo}/>
 
             <BackgroundGrid/>
             <StarHolder/>

@@ -13,6 +13,7 @@ export interface projectInfo{
     projectDuration:string
     projectInformation:string
     itchLink?:string
+    githubRepo?:string
 }
 
 export const projectInfos:projectInfo[] =[
@@ -40,7 +41,8 @@ export const projectInfos:projectInfo[] =[
         "projectDuration":"2 months",
         "projectInformation":"All elements of the game but the prefabs and some animations were self made",
         "projectHighlightDescription":"The game is heavily inspired by the game Ziggurat 2. The game uses wave function collapse to generate prebuilt room tiles. Implemented a standard roguelite skill point gaining system after clearing the level boss that can be spent in the menu for permanent upgrades. While gaining experience the player can choose from 3 upgrades that last until the end of the run. \n \nThe game has 5 unique common enemy types and 1 boss. The game has an implemented json based save system to track settings and skill point progression and distribution",
-        "itchLink":"https://elseifelse.itch.io/castle-of-doom"
+        "itchLink":"https://elseifelse.itch.io/castle-of-doom",
+        
     },
     {
         "id": 2,
@@ -60,14 +62,29 @@ export const projectInfos:projectInfo[] =[
         "videoLink":"IV6KSMS1AIY",
         "projectHighlightLink":"IV6KSMS1AIY",
         "projectDuration":"6 weeks",
-        "projectInformation":"All elements of the game but the prefabs were self made",
-        "projectHighlightDescription":"The project was heavily inspired by games like Frewatch, Gone home and Stanley's Parable. I wanted to implement a system where You can interact with almost all objects You see in the game in a unique way.\n\n The game contains different types of interaction classes. [Simple Interactions] where You can pick/inspect-rotate/throw objects. [Task Object Interactions] which changes behaviour based on the task progression. [Note Interactions] where the player can read/stash notes to observe later. [Unique Item Interactions] such as the vending machine, computers where You can read people's emails and get an environmental storytellying narrative from it.\n\nA node based conversation system was implemented to handle incoming phone calls and possible answers to questions form the caller. Answers have consequences on your work life balance meter and to future conversation options.\n\nThe base gameloop contains the player coming to work, picking up tasks, finishing them and making decisions based on what they interacted with or found.\n\nImplemented a global lock system to add reasons to locked mechanics and to remove those reasons. A mechanic is only enabled when the lock reason list is empty. This way the source of truth for the mechanic state is managed in one place. ",
+        "projectInformation":"Prefabs were made by SYNTY studios. All other elements were self made.",
+        "projectHighlightDescription":"The project was heavily inspired by games like Frewatch, Gone home and Stanley's Parable. I wanted to implement a system where You can interact with almost all objects You see in the game in a unique way.\n\n The game contains different types of interaction classes. [Simple Interactions] where You can pick/inspect-rotate/throw objects. [Task Object Interactions] which changes behaviour based on the task progression. [Note Interactions] where the player can read/stash notes to observe later. [Unique Item Interactions] such as the vending machine, computers where You can read people's emails and get an environmental storytellying narrative from it.\n\nA node based conversation system was implemented to handle incoming phone calls and possible answers to questions form the caller. Answers have consequences on your work life balance meter and to future conversation options.\n\nThe base gameloop contains the player coming to work, picking up tasks, finishing them and making decisions based on what they interacted with or found.\n\nImplemented a global lock system to add reasons to locked mechanics and to remove those reasons. A mechanic is only enabled when the lock reason list is empty. This way the source of truth for the mechanic state is managed in one place.",
         "projectHighlightImage_02":"../nightShift_04.PNG",
         "projectHighlightImage_01":"../nightShift_02.PNG",
         "itchLink":""
     },
     {
         "id": 4,
+        "name":"Soulslike System",
+        "image":"/soulslikeThumbnail.jpeg",
+        "videoLink":"euoNRkxSOOo",
+        "projectHighlightLink":"euoNRkxSOOo",
+        "projectDuration":"1 week",
+        "projectInformation":"Animations and prefabs are made by SYNTY studio.",
+        "projectHighlightDescription":"First implementation of a soulslike root motion based combat and movement system.\n\n     The prototype is using an action based player controller system where all player input leads to player action being added to the action list. Every action is it's own class that inherits from the base PlayerAction class. It contains the animation crossfade and the audi pooler call. Every action is returning it's own length so the ActionManager can determinte the buffer time and the amount of time it cuts off from the end so it can seemlessly connnect to the next action. The action list is being excecuted in order and uses a small buffer window so actions can be linked together. The biggest challenge was to make the actions seem fluid and not having seperate animations with clear connection points. The issue was solved by using a code driven animator transition system and cutting off a percentage of the current action's end. This surfaced a new issue where if two actions that were executed used the same animation it cannot fade into it's own animation clip. This was solved by duplicating the animations and flagging the animations with a simple counter to track which is currently used and to always use the other one.\n\n     The project is built in a hierarchical MVC pattern where each manager and subhandler class is initialized by it's owner. I used 2 step initialazation where first all objects are created and then they get all dependencies injected with their Initialize() method.\n\n    Implemented simple dictionary based pooling systems where the pool is accepting an enum for the GetPoolItem() method. All manager initialazation is using Scriptable Objects.",
+        "projectHighlightImage_02":"",
+        "projectHighlightImage_01":"",
+        "itchLink":"",
+        "githubRepo":"https://github.com/ElsIfElse/SoulslikeSystem"
+
+    },
+    {
+        "id": 5,
         "name":"Don't Break the Glass",
         "image":"/saveTheSick.png",
         "videoLink":"8Y-82tufejI",
@@ -78,7 +95,7 @@ export const projectInfos:projectInfo[] =[
         "itchLink":"https://elseifelse.itch.io/dont-break-the-glass"
     },
     {
-        "id":5,
+        "id":6,
         "name":"RPG Survival",
         "image":"../rpgImage.png",
         "projectHighlightLink":"oJqpW-Ra8TM",
@@ -91,7 +108,7 @@ export const projectInfos:projectInfo[] =[
  
     },
     {
-        "id":6,
+        "id":7,
         "name":"Kingdom Manager",
         "image":"../kingdomManager.png",
         "projectHighlightLink":"oGm3-7TTxJ8",
@@ -105,7 +122,7 @@ export const projectInfos:projectInfo[] =[
  
     },
     {
-        "id":7,
+        "id":8,
         "name":"FPS shooter",
         "image":"../fpsShooter.png",
         "projectHighlightLink":"Ylb4w7QQPrQ",
@@ -118,7 +135,7 @@ export const projectInfos:projectInfo[] =[
  
     },
     {
-        "id":8,
+        "id":9,
         "name":"Where is the Power?",
         "image":"../whereIsThePower.png",
         "projectHighlightLink":"LcjuwB-fyMk",
@@ -132,7 +149,7 @@ export const projectInfos:projectInfo[] =[
  
     },
     {
-        "id":9,
+        "id":10,
         "name":"The Machine",
         "image":"../aiCom.png",
         "videoLink":"T71F95nRcYw",
@@ -143,7 +160,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":10,
+        "id":11,
         "name":"Forest Streamer",
         "image":"../forestStreamer.png",
         "videoLink":"I2owX8FaVsk", 
@@ -154,7 +171,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":11,
+        "id":12,
         "name":"The Island",
         "image":"../forestStreamer.png",
         "videoLink":"VF0MQ4QtKyI", 
@@ -164,7 +181,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":'The game prototype was created to plan and build a minecraft-like inventory system with all items being equippable. The enemies have a mix of state machine and behaviour tree ai behaviour. The prototype includes day and night cycle with an enemy wave trigger at night.'
     },
     {
-        "id": 12,
+        "id": 13,
         "name":"Save The Sick",
         "image":"/saveTheSick.png",
         "videoLink":"8Y-82tufejI",
@@ -176,7 +193,7 @@ export const projectInfos:projectInfo[] =[
         // "projectHighlightImage_02":"../public/code_02.png"
     },
     {    
-        "id":13,
+        "id":14,
         "name":"Pizza Fighter",
         "image":"/pizzaFighter.png",
         "projectHighlightLink":"zsu0N-3bDCw",
@@ -188,7 +205,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":14,
+        "id":15,
         "name":"Void Blocks",
         "image":"../voidBlocks.png",
         "videoLink":"YYvFQPh_wHo?",
@@ -200,7 +217,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":15,
+        "id":16,
         "name":"Recipe App",
         "image":"../recipeApp.png",
         "videoLink":"none",
@@ -209,7 +226,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
     },
     {
-        "id":16,
+        "id":17,
         "name":"Dine at Mine",
         "image":"../dineAtMine.png",
         "videoLink":"none",
@@ -218,7 +235,7 @@ export const projectInfos:projectInfo[] =[
         "projectHighlightDescription":"Created a complete resource management RTS game with dynamic AI behavior. Implemented complex resource allocation and player progression systems. Created custom UI for resource tracking and management."
     },
     {
-        "id":17,
+        "id":18,
         "name":"DnD Npc database",
         "image":"../dndSite.png",
         "videoLink":"none",
@@ -228,7 +245,7 @@ export const projectInfos:projectInfo[] =[
 
     },
     {
-        "id":18,
+        "id":19,
         "name":"AI Companionship",
         "image":"../aiCom.png",
         "videoLink":"none",
